@@ -32,7 +32,7 @@ You can use either **pip** or **uv** to manage dependencies.
     ```
 3. Run the app:
     ```sh
-    python main.py
+    python App.py
     ```
 
 ### Option 2: Using pip
@@ -56,7 +56,7 @@ You can use either **pip** or **uv** to manage dependencies.
     ```
 4. Run the app:
     ```sh
-    python main.py
+    python App.py
     ```
 
 ## License
