@@ -1,4 +1,4 @@
-# Excel Data Entry Forms Manager App - (UI/UX)
+# Excel Data Entry Forms Manager App
 
 An open source PyQt5 application for creating, editing, and managing Excel data entry forms.
 
@@ -16,14 +16,23 @@ An open source PyQt5 application for creating, editing, and managing Excel data 
 
 ## Getting Started
 
-1. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-2. Run the main application:
-   ```sh
-   python App.py
-   ```
+## Running the App
+
+We are using [uv](https://github.com/astral-sh/uv) as our Python package manager for faster and more reliable dependency management.
+
+### Install dependencies
+
+```sh
+uv pip install -r requirements.txt
+```
+
+### Run the app
+
+```sh
+uv venv
+uv pip install -r requirements.txt
+python main.py
+```
 
 ## License
 
