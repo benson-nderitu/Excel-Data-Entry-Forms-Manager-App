@@ -1,4 +1,4 @@
-# Excel Data Entry Forms Manager App
+# Excel Data Entry Forms Manager App - UI.UX
 
 An open source PyQt5 application for creating, editing, and managing Excel data entry forms.
 
