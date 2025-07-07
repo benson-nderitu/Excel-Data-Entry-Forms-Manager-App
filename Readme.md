@@ -18,21 +18,46 @@ An open source PyQt5 application for creating, editing, and managing Excel data 
 
 ## Running the App
 
-We are using [uv](https://github.com/astral-sh/uv) as our Python package manager for faster and more reliable dependency management.
+You can use either **pip** or **uv** to manage dependencies.
 
-### Install dependencies
+### Option 1: Using uv (recommended)
 
-```sh
-uv pip install -r requirements.txt
-```
+1. Create a virtual environment:
+    ```sh
+    uv venv
+    ```
+2. Install dependencies:
+    ```sh
+    uv pip install -r requirements.txt
+    ```
+3. Run the app:
+    ```sh
+    python main.py
+    ```
 
-### Run the app
+### Option 2: Using pip
 
-```sh
-uv venv
-uv pip install -r requirements.txt
-python main.py
-```
+1. Create a virtual environment:
+    ```sh
+    python -m venv venv
+    ```
+2. Activate the virtual environment:
+    - On Windows:
+        ```sh
+        .\venv\Scripts\activate
+        ```
+    - On macOS/Linux:
+        ```sh
+        source venv/bin/activate
+        ```
+3. Install dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Run the app:
+    ```sh
+    python main.py
+    ```
 
 ## License
 
