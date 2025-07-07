@@ -29,9 +29,9 @@ You can use either **pip** or **uv** to manage dependencies.
    uv pip install -r requirements.txt
    ```
 3. Run the app:
-   ```sh
-   python main.py
-   ```
+    ```sh
+    python main.py
+    ```
 
 ### Option 2: Using pip
 
@@ -53,9 +53,9 @@ You can use either **pip** or **uv** to manage dependencies.
    pip install -r requirements.txt
    ```
 4. Run the app:
-   ```sh
-   python main.py
-   ```
+    ```sh
+    python main.py
+    ```
 
 ## License
 
